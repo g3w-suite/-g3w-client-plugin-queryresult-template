@@ -24,17 +24,6 @@ function Service() {
      * this.keySetters[keyOnAfterSetQueryResponse] = 'setQueryResponse'
      *
      */
-
-  };
-
-  /**
-   * Method eventualy set if plugin can be load or not
-   */
-  this.loadPlugin = function(){
-    /**
-     * Overwrite condition
-     */
-    return true
   };
 
   this.clear = function() {
