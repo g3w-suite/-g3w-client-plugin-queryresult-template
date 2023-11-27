@@ -10,7 +10,9 @@ const Plugin = function() {
     i18n,
     service: Service
   });
-  if (this.registerPlugin(this.config.gid)) this.service.init(this.config);
+  if (this.registerPlugin(this.config.gid)) {
+    this.service.init(this.config);
+  }
   // need to be call to hide loading icon on map
   this.setReady(true);
 };
