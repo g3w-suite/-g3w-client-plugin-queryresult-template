@@ -1,4 +1,7 @@
-const {base, inherit} = g3wsdk.core.utils;
+const {
+  base,
+  inherit
+} = g3wsdk.core.utils;
 const {PluginService} = g3wsdk.core.plugin;
 const {GUI} = g3wsdk.gui;
 
